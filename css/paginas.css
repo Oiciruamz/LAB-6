@@ -1,0 +1,45 @@
+
+
+.blanco{
+    color: white;
+}
+
+div.width{
+    margin: 0 auto;
+    width: 100%;
+}
+
+
+.imagen-saturada {
+    background-color: rgb(249, 83, 28);
+    object-fit:contain;
+    height: 620px;
+    filter: saturate(150%); /* Reducir la saturación al 50% */
+}
+
+.imagen-saturada2{
+    background-color: rgb(131, 34, 17);
+    object-fit: cover;
+    height: 620px;
+    filter: saturate(50%); /* Reducir la saturación al 50% */
+}
+
+.imagen-saturada3{
+    background-color: rgb(131, 34, 17);
+    object-fit: cover;
+    height: 620px;
+    filter: saturate(250%); /* Reducir la saturación al 50% */
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    width: 100%;
+    height: 50vh;
+}
