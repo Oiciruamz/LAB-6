@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #da6d81;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover{
+    color: rgb(65, 62, 150);
+    text-decoration: underline;
+}
+
+.favoritas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+
+.favoritas img{
+    width: 229px;
+    height: 316px;
+}
+
+.favoritas h2{
+    text-align: center;
+    justify-self: center;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+}
